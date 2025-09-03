@@ -72,9 +72,28 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="None"
+        android:text=""
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView3"
         app:layout_constraintEnd_toStartOf="@id/buttonC" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="26sp"
+        android:layout_margin="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText1" />
+
+    <Button
+        android:id="@+id/button_exec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起動"
+        app:layout_constraintTop_toTopOf="@id/textview_result"
+        app:layout_constraintStart_toStartOf="@id/buttonC" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
