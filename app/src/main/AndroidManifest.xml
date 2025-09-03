@@ -13,7 +13,7 @@
         android:theme="@style/Theme.MobileAppDevATest">
         <activity
             android:name=".MainActivity3"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity2"
             android:exported="true">
