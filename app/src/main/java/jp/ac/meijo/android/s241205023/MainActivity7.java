@@ -47,7 +47,7 @@ public class MainActivity7 extends AppCompatActivity {
             var addresses = linkProperties.getLinkAddresses().stream()
                     .map(LinkAddress::toString)
                     .collect(Collectors.joining("\n"));
-            binding.labelIPAddress.setText(addresses);
+            binding.ipAddress.setText(addresses);
         }
     }
 
