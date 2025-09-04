@@ -12,6 +12,7 @@ import jp.ac.meijo.android.s241205023.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
+
     private ActivityMainBinding binding;
     private PrefDataStore prefDataStore;
 
